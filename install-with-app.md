@@ -42,7 +42,7 @@ Download and install the Postman app from [this link](https://www.postman.com/do
 1. Update the CURRENT VALUE with your values for public and private code verifiers and challenges.
 
 The following variables should be setup as Postman environment variables before running any tests.
-'''
+´´´
 host - The host to the SLAS service. Should include https://
 tenant_id - The tenand id that was created when SLAS and ECOM was set up.
 base_uri - The base URI to SLAS. ex. /api/v1/organizations/
@@ -54,7 +54,7 @@ private_client_id - The private client when client was created in SLAS.
 private_client_secret - The private client secret when client was created in SLAS.
 public_client_id - The public client when client was created in SLAS.
 redirect_url - One of the redirect_uris that are part of the SLAS client.
-'''
+```
 
 1. Click **Save**.
 
