@@ -40,6 +40,8 @@ Download and install the Postman app from [this link](https://www.postman.com/do
 1. Click **Salesforce Commerce Cloud SLAS Use Cases**
 1. Open the **Variables** tab.
 1. Update the CURRENT VALUE with your values for public and private code verifiers and challenges.
+1. Click **Save**.
+
 
 The following variables should be setup as Postman environment variables before running any tests.
 
@@ -57,7 +59,6 @@ public_client_id - The public client when client was created in SLAS.
 redirect_url - One of the redirect_uris that are part of the SLAS client.
 ```
 
-1. Click **Save**.
 
 
 ## Authentication
@@ -70,7 +71,7 @@ For SLAS Authentication happens with the above mentioned public and private code
 
 At this point, if your environment is correctly set up, you should see a `200 OK` status. This means that you have successfully authenticated with Salesforce and that you can now use the other collection’s requests.
 
-![Authenticate screenshot](doc-gfx/app/limits-status-200.png)
+![Authenticate screenshot](doc-gfx/app/SLAS_Private CLient_200.png)
 
 See [additional documentation](README.md#additional-documentation) for more information on how to keep the collection up to date and work with multiple Salesforce orgs.
 
